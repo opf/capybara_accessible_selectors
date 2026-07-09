@@ -13,6 +13,16 @@ GIT
       rubocop-rspec_rails (~> 2.31)
 
 PATH
+  remote: ../ferrum
+  specs:
+    ferrum (0.17.2)
+      addressable (~> 2.5)
+      base64 (~> 0.2)
+      concurrent-ruby (~> 1.1)
+      webrick (~> 1.7)
+      websocket-driver (~> 0.7)
+
+PATH
   remote: .
   specs:
     capybara_accessible_selectors (0.15.0)
@@ -61,12 +71,6 @@ GEM
     diff-lcs (1.6.2)
     drb (2.2.3)
     erb (6.0.1.1)
-    ferrum (0.17.2)
-      addressable (~> 2.5)
-      base64 (~> 0.2)
-      concurrent-ruby (~> 1.1)
-      webrick (~> 1.7)
-      websocket-driver (~> 0.7)
     i18n (1.14.8)
       concurrent-ruby (~> 1.0)
     io-console (0.8.1)
@@ -218,6 +222,7 @@ DEPENDENCIES
   citizens-advice-style!
   cuprite
   debug
+  ferrum!
   puma
   rack-test
   rackup

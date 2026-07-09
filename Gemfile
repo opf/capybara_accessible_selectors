@@ -6,6 +6,7 @@ group :test, :development do
   gem "citizens-advice-style", git: "https://github.com/citizensadvice/citizens-advice-style-ruby", tag: "v12.1.0"
   gem "cuprite"
   gem "debug"
+  gem "ferrum", path: "~/git-repos/ferrum"
   gem "puma"
   gem "rack-test"
   gem "rackup"
